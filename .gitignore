@@ -1,0 +1,24 @@
+# __pycache__, logs e arquivos temporários
+__pycache__/
+*.py[cod]
+*.log
+
+# Ambiente virtual criado pelo Poetry
+.venv/
+*.env
+
+# Arquivos de IDE
+.vscode/
+.idea/
+
+# Dados
+*.parquet
+*.csv
+*.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Outros
+.DS_Store
+

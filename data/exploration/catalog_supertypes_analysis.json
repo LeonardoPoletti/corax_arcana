@@ -1,0 +1,20 @@
+{
+  "catalog_type": "supertypes",
+  "total_items": 7,
+  "structure_keys": [
+    "object",
+    "uri",
+    "total_values",
+    "data"
+  ],
+  "sample_items": [
+    "Basic",
+    "Elite",
+    "Legendary",
+    "Ongoing",
+    "Snow",
+    "Token",
+    "World"
+  ],
+  "uri": "https://api.scryfall.com/catalog/supertypes"
+}

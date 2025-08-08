@@ -1,0 +1,23 @@
+{
+  "catalog_type": "creature-types",
+  "total_items": 322,
+  "structure_keys": [
+    "object",
+    "uri",
+    "total_values",
+    "data"
+  ],
+  "sample_items": [
+    "Advisor",
+    "Aetherborn",
+    "Alien",
+    "Ally",
+    "Angel",
+    "Antelope",
+    "Ape",
+    "Archer",
+    "Archon",
+    "Armadillo"
+  ],
+  "uri": "https://api.scryfall.com/catalog/creature-types"
+}

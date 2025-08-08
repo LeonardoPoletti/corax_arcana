@@ -1,0 +1,23 @@
+{
+  "catalog_type": "card-names",
+  "total_items": 32407,
+  "structure_keys": [
+    "object",
+    "uri",
+    "total_values",
+    "data"
+  ],
+  "sample_items": [
+    "\"Ach! Hans, Run!\"",
+    "\"Brims\" Barone, Midway Mobster",
+    "\"Lifetime\" Pass Holder",
+    "\"Name Sticker\" Goblin",
+    "\"Rumors of My Death . . .\"",
+    "+2 Mace",
+    "1996 World Champion",
+    "A Display of My Dark Power",
+    "A Girl and Her Dogs",
+    "A Golden Opportunity"
+  ],
+  "uri": "https://api.scryfall.com/catalog/card-names"
+}

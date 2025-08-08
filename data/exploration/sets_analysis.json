@@ -1,0 +1,140 @@
+{
+  "total_sets": 985,
+  "structure_keys": [
+    "object",
+    "has_more",
+    "data"
+  ],
+  "sample_sets": [
+    {
+      "code": "tla",
+      "name": "Avatar: The Last Airbender",
+      "set_type": "expansion",
+      "card_count": 2,
+      "released_at": "2025-11-21",
+      "keys": [
+        "object",
+        "id",
+        "code",
+        "mtgo_code",
+        "arena_code",
+        "name",
+        "uri",
+        "scryfall_uri",
+        "search_uri",
+        "released_at",
+        "set_type",
+        "card_count",
+        "digital",
+        "nonfoil_only",
+        "foil_only",
+        "icon_svg_uri"
+      ]
+    },
+    {
+      "code": "tspm",
+      "name": "Marvel's Spider-Man Tokens",
+      "set_type": "token",
+      "card_count": 0,
+      "released_at": "2025-09-26",
+      "keys": [
+        "object",
+        "id",
+        "code",
+        "name",
+        "uri",
+        "scryfall_uri",
+        "search_uri",
+        "released_at",
+        "set_type",
+        "card_count",
+        "parent_set_code",
+        "digital",
+        "nonfoil_only",
+        "foil_only",
+        "icon_svg_uri"
+      ]
+    },
+    {
+      "code": "pspm",
+      "name": "Marvel's Spider-Man Promos",
+      "set_type": "promo",
+      "card_count": 2,
+      "released_at": "2025-09-26",
+      "keys": [
+        "object",
+        "id",
+        "code",
+        "name",
+        "uri",
+        "scryfall_uri",
+        "search_uri",
+        "released_at",
+        "set_type",
+        "card_count",
+        "parent_set_code",
+        "digital",
+        "nonfoil_only",
+        "foil_only",
+        "icon_svg_uri"
+      ]
+    },
+    {
+      "code": "spm",
+      "name": "Marvel's Spider-Man",
+      "set_type": "expansion",
+      "card_count": 99,
+      "released_at": "2025-09-26",
+      "keys": [
+        "object",
+        "id",
+        "code",
+        "tcgplayer_id",
+        "name",
+        "uri",
+        "scryfall_uri",
+        "search_uri",
+        "released_at",
+        "set_type",
+        "card_count",
+        "digital",
+        "nonfoil_only",
+        "foil_only",
+        "icon_svg_uri"
+      ]
+    },
+    {
+      "code": "spe",
+      "name": "Marvel's Spider-Man Eternal",
+      "set_type": "expansion",
+      "card_count": 26,
+      "released_at": "2025-09-26",
+      "keys": [
+        "object",
+        "id",
+        "code",
+        "name",
+        "uri",
+        "scryfall_uri",
+        "search_uri",
+        "released_at",
+        "set_type",
+        "card_count",
+        "parent_set_code",
+        "digital",
+        "nonfoil_only",
+        "foil_only",
+        "icon_svg_uri"
+      ]
+    }
+  ],
+  "set_types": [
+    "token",
+    "expansion",
+    "promo"
+  ],
+  "date_range": {
+    "oldest": "2025-09-26",
+    "newest": "2025-11-21"
+  }
+}

@@ -1,0 +1,212 @@
+2025-08-01 13:32:17 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-01 13:32:17 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-01 13:32:17 | INFO | explore_sets | Explorando endpoint /set
+2025-08-01 13:32:17 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/set
+2025-08-01 13:32:18 | ERROR | _make_request | Erro na requisição para https://api.scryfall.com/set: 404 Client Error: Not Found for url: https://api.scryfall.com/set
+2025-08-01 13:32:18 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/sets_analysis.json
+2025-08-01 13:32:18 | INFO | explore_cards | Explorando cartas do set: dom
+2025-08-01 13:32:18 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/cards/search
+2025-08-01 13:32:18 | INFO | _make_request | Parâmetros: {'q': 'set:dom', 'page': 1}
+2025-08-01 13:32:18 | SUCCESS | _make_request | Requsição bem-sucessida - Status: 200
+2025-08-01 13:32:18 | INFO | explore_cards | Análise completa: 265 cartas no set dom
+2025-08-01 13:32:18 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/cards_analysis.json
+2025-08-01 13:32:18 | INFO | explore_catalog | Explorando catálogo: creature-types
+2025-08-01 13:32:18 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/creature-types
+2025-08-01 13:32:19 | SUCCESS | _make_request | Requsição bem-sucessida - Status: 200
+2025-08-01 13:32:19 | INFO | explore_catalog | Catálogo creature-types: 322 itens
+2025-08-01 13:32:19 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_creature_typesanalysis.json
+2025-08-01 13:32:19 | INFO | explore_catalog | Explorando catálogo: card-names
+2025-08-01 13:32:19 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/card-names
+2025-08-01 13:32:20 | SUCCESS | _make_request | Requsição bem-sucessida - Status: 200
+2025-08-01 13:32:20 | INFO | explore_catalog | Catálogo card-names: 32404 itens
+2025-08-01 13:32:20 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_card_namesanalysis.json
+2025-08-01 13:32:20 | INFO | explore_catalog | Explorando catálogo: colors
+2025-08-01 13:32:20 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/colors
+2025-08-01 13:32:20 | ERROR | _make_request | Erro na requisição para https://api.scryfall.com/catalog/colors: 404 Client Error: Not Found for url: https://api.scryfall.com/catalog/colors
+2025-08-01 13:32:20 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_colorsanalysis.json
+2025-08-01 13:32:20 | INFO | main | Exploração da API Scryfall concluída
+2025-08-01 13:35:05 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-01 13:35:05 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-01 13:35:05 | INFO | explore_sets | Explorando endpoint /set
+2025-08-01 13:35:05 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/set
+2025-08-01 13:35:06 | ERROR | _make_request | Erro na requisição para https://api.scryfall.com/set: 404 Client Error: Not Found for url: https://api.scryfall.com/set
+2025-08-01 13:35:06 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/sets_analysis.json
+2025-08-01 13:35:06 | INFO | explore_cards | Explorando cartas do set: dom
+2025-08-01 13:35:06 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/cards/search
+2025-08-01 13:35:06 | INFO | _make_request | Parâmetros: {'q': 'set:dom', 'page': 1}
+2025-08-01 13:35:06 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-01 13:35:06 | INFO | explore_cards | Análise completa: 265 cartas no set dom
+2025-08-01 13:35:06 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/cards_analysis.json
+2025-08-01 13:35:06 | INFO | explore_catalog | Explorando catálogo: creature-types
+2025-08-01 13:35:06 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/creature-types
+2025-08-01 13:35:06 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-01 13:35:06 | INFO | explore_catalog | Catálogo creature-types: 322 itens
+2025-08-01 13:35:06 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_creature_typesanalysis.json
+2025-08-01 13:35:07 | INFO | explore_catalog | Explorando catálogo: card-names
+2025-08-01 13:35:07 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/card-names
+2025-08-01 13:35:08 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-01 13:35:08 | INFO | explore_catalog | Catálogo card-names: 32404 itens
+2025-08-01 13:35:08 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_card_namesanalysis.json
+2025-08-01 13:35:08 | INFO | explore_catalog | Explorando catálogo: colors
+2025-08-01 13:35:08 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/colors
+2025-08-01 13:35:08 | ERROR | _make_request | Erro na requisição para https://api.scryfall.com/catalog/colors: 404 Client Error: Not Found for url: https://api.scryfall.com/catalog/colors
+2025-08-01 13:35:08 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_colorsanalysis.json
+2025-08-01 13:35:08 | INFO | main | Exploração da API Scryfall concluída
+2025-08-01 13:48:17 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-01 13:48:17 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-01 13:48:17 | INFO | explore_sets | Explorando endpoint /set
+2025-08-01 13:48:17 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/set
+2025-08-01 13:48:17 | ERROR | _make_request | Erro na requisição para https://api.scryfall.com/set: 404 Client Error: Not Found for url: https://api.scryfall.com/set
+2025-08-01 13:48:17 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/sets_analysis.json
+2025-08-01 13:48:17 | INFO | explore_cards | Explorando cartas do set: dom
+2025-08-01 13:48:17 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/cards/search
+2025-08-01 13:48:17 | INFO | _make_request | Parâmetros: {'q': 'set:dom', 'page': 1}
+2025-08-01 13:48:18 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-01 13:48:18 | INFO | explore_cards | Análise completa: 265 cartas no set dom
+2025-08-01 13:48:18 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/cards_analysis.json
+2025-08-01 13:48:18 | INFO | explore_catalog | Explorando catálogo: creature-types
+2025-08-01 13:48:18 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/creature-types
+2025-08-01 13:48:18 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-01 13:48:18 | INFO | explore_catalog | Catálogo creature-types: 322 itens
+2025-08-01 13:48:18 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_creature_types_analysis.json
+2025-08-01 13:48:18 | INFO | explore_catalog | Explorando catálogo: card-names
+2025-08-01 13:48:18 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/card-names
+2025-08-01 13:48:19 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-01 13:48:19 | INFO | explore_catalog | Catálogo card-names: 32404 itens
+2025-08-01 13:48:19 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_card_names_analysis.json
+2025-08-01 13:48:19 | INFO | explore_catalog | Explorando catálogo: colors
+2025-08-01 13:48:19 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/colors
+2025-08-01 13:48:20 | ERROR | _make_request | Erro na requisição para https://api.scryfall.com/catalog/colors: 404 Client Error: Not Found for url: https://api.scryfall.com/catalog/colors
+2025-08-01 13:48:20 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_colors_analysis.json
+2025-08-01 13:48:20 | INFO | main | Exploração da API Scryfall concluída
+2025-08-05 13:05:08 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-05 13:05:08 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-05 13:05:08 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-05 13:05:08 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-05 13:05:10 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-05 13:09:30 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-05 13:09:30 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-05 13:09:30 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-05 13:09:30 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-05 13:09:31 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-05 13:10:56 | INFO | main | 🚀 Iniciando exploração da API Scryfall
+2025-08-05 13:10:56 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-05 13:10:56 | INFO | explore_sets | 🎴 Explorando endpoint /sets
+2025-08-05 13:10:56 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-05 13:10:57 | SUCCESS | _make_request | Requisição bem-sucedida - Status: 200
+2025-08-05 13:10:57 | INFO | explore_sets | Análise completa: 985 sets encontrados
+2025-08-05 13:10:57 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/sets_analysis.json
+2025-08-05 13:10:57 | INFO | explore_cards | 🃏 Explorando cartas do set: dom
+2025-08-05 13:10:57 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/cards/search
+2025-08-05 13:10:57 | INFO | _make_request | Parâmetros: {'q': 'set:dom', 'page': 1}
+2025-08-05 13:10:58 | SUCCESS | _make_request | Requisição bem-sucedida - Status: 200
+2025-08-05 13:10:58 | INFO | explore_cards | Análise completa: 265 cartas no set dom
+2025-08-05 13:10:58 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/cards_analysis.json
+2025-08-05 13:10:58 | INFO | explore_catalog | 📊 Explorando catálogo: creature-types
+2025-08-05 13:10:58 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/creature-types
+2025-08-05 13:10:58 | SUCCESS | _make_request | Requisição bem-sucedida - Status: 200
+2025-08-05 13:10:58 | INFO | explore_catalog | Catálogo creature-types: 322 itens
+2025-08-05 13:10:58 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_creature_types_analysis.json
+2025-08-05 13:10:58 | INFO | explore_catalog | 📊 Explorando catálogo: card-names
+2025-08-05 13:10:58 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/card-names
+2025-08-05 13:10:59 | SUCCESS | _make_request | Requisição bem-sucedida - Status: 200
+2025-08-05 13:10:59 | INFO | explore_catalog | Catálogo card-names: 32407 itens
+2025-08-05 13:10:59 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_card_names_analysis.json
+2025-08-05 13:10:59 | INFO | explore_catalog | 📊 Explorando catálogo: supertypes
+2025-08-05 13:10:59 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/supertypes
+2025-08-05 13:11:00 | SUCCESS | _make_request | Requisição bem-sucedida - Status: 200
+2025-08-05 13:11:00 | INFO | explore_catalog | Catálogo supertypes: 7 itens
+2025-08-05 13:11:00 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_supertypes_analysis.json
+2025-08-05 13:11:00 | INFO | main | 🏁 Exploração da API Scryfall concluída
+2025-08-05 13:29:32 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-05 13:29:32 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-05 13:29:32 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-05 13:29:32 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-05 13:29:33 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-05 13:30:21 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-05 13:30:21 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-05 13:30:21 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-05 13:30:21 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-05 13:30:22 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-05 13:30:22 | INFO | explore_sets | Análise completa: 985 sets encontrados
+2025-08-05 13:30:22 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/sets_analysis.json
+2025-08-05 13:30:22 | INFO | explore_cards | Explorando cartas do set: dom
+2025-08-05 13:30:22 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/cards/search
+2025-08-05 13:30:22 | INFO | _make_request | Parâmetros: {'q': 'set:dom', 'page': 1}
+2025-08-05 13:30:23 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-05 13:30:23 | INFO | explore_cards | Análise completa: 265 cartas no set dom
+2025-08-05 13:30:23 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/cards_analysis.json
+2025-08-05 13:30:23 | INFO | explore_catalog | Explorando catálogo: creature-types
+2025-08-05 13:30:23 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/creature-types
+2025-08-05 13:30:23 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-05 13:30:23 | INFO | explore_catalog | Catálogo creature-types: 322 itens
+2025-08-05 13:30:23 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_creature_types_analysis.json
+2025-08-05 13:30:23 | INFO | explore_catalog | Explorando catálogo: card-names
+2025-08-05 13:30:23 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/card-names
+2025-08-05 13:30:24 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-05 13:30:24 | INFO | explore_catalog | Catálogo card-names: 32407 itens
+2025-08-05 13:30:24 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_card_names_analysis.json
+2025-08-05 13:30:24 | INFO | explore_catalog | Explorando catálogo: supertypes
+2025-08-05 13:30:24 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/supertypes
+2025-08-05 13:30:24 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-05 13:30:24 | INFO | explore_catalog | Catálogo supertypes: 7 itens
+2025-08-05 13:30:24 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_supertypes_analysis.json
+2025-08-05 13:30:24 | INFO | main | Exploração da API Scryfall concluída
+2025-08-07 08:12:39 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-07 08:12:39 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-07 08:12:39 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-07 08:12:39 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-07 08:12:40 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-07 08:12:40 | INFO | explore_sets | Análise completa: 985 sets encontrados
+2025-08-07 08:12:40 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/sets_analysis.json
+2025-08-07 08:12:40 | INFO | explore_cards | Explorando cartas do set: dom
+2025-08-07 08:12:40 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/cards/search
+2025-08-07 08:12:40 | INFO | _make_request | Parâmetros: {'q': 'set:dom', 'page': 1}
+2025-08-07 08:12:42 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-07 08:12:42 | INFO | explore_cards | Análise completa: 265 cartas no set dom
+2025-08-07 08:12:42 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/cards_analysis.json
+2025-08-07 08:12:42 | INFO | explore_catalog | Explorando catálogo: creature-types
+2025-08-07 08:12:42 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/creature-types
+2025-08-07 08:12:42 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-07 08:12:42 | INFO | explore_catalog | Catálogo creature-types: 322 itens
+2025-08-07 08:12:42 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_creature_types_analysis.json
+2025-08-07 08:12:42 | INFO | explore_catalog | Explorando catálogo: card-names
+2025-08-07 08:12:42 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/card-names
+2025-08-07 08:12:43 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-07 08:12:43 | INFO | explore_catalog | Catálogo card-names: 32407 itens
+2025-08-07 08:12:43 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_card_names_analysis.json
+2025-08-07 08:12:44 | INFO | explore_catalog | Explorando catálogo: supertypes
+2025-08-07 08:12:44 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/supertypes
+2025-08-07 08:12:44 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-07 08:12:44 | INFO | explore_catalog | Catálogo supertypes: 7 itens
+2025-08-07 08:12:44 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_supertypes_analysis.json
+2025-08-07 08:12:44 | INFO | main | Exploração da API Scryfall concluída
+2025-08-08 10:45:22 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 10:45:22 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 10:45:22 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 10:45:22 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 10:45:24 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 10:45:24 | INFO | explore_sets | Análise completa: 985 sets encontrados
+2025-08-08 10:45:24 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/sets_analysis.json
+2025-08-08 10:45:24 | INFO | explore_cards | Explorando cartas do set: dom
+2025-08-08 10:45:24 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/cards/search
+2025-08-08 10:45:24 | INFO | _make_request | Parâmetros: {'q': 'set:dom', 'page': 1}
+2025-08-08 10:45:25 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 10:45:25 | INFO | explore_cards | Análise completa: 265 cartas no set dom
+2025-08-08 10:45:25 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/cards_analysis.json
+2025-08-08 10:45:25 | INFO | explore_catalog | Explorando catálogo: creature-types
+2025-08-08 10:45:25 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/creature-types
+2025-08-08 10:45:25 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 10:45:25 | INFO | explore_catalog | Catálogo creature-types: 322 itens
+2025-08-08 10:45:25 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_creature_types_analysis.json
+2025-08-08 10:45:25 | INFO | explore_catalog | Explorando catálogo: card-names
+2025-08-08 10:45:25 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/card-names
+2025-08-08 10:45:28 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 10:45:28 | INFO | explore_catalog | Catálogo card-names: 32407 itens
+2025-08-08 10:45:28 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_card_names_analysis.json
+2025-08-08 10:45:29 | INFO | explore_catalog | Explorando catálogo: supertypes
+2025-08-08 10:45:29 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/catalog/supertypes
+2025-08-08 10:45:29 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 10:45:29 | INFO | explore_catalog | Catálogo supertypes: 7 itens
+2025-08-08 10:45:29 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_supertypes_analysis.json
+2025-08-08 10:45:29 | INFO | main | Exploração da API Scryfall concluída

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 #/notebook/api_explorer.py
+
 """
 Explorador API Scryfall - KyberCorax
 Script para explorar e entender a estrutura da API Scryfall

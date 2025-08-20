@@ -210,3 +210,354 @@
 2025-08-08 10:45:29 | INFO | explore_catalog | Catálogo supertypes: 7 itens
 2025-08-08 10:45:29 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/catalog_supertypes_analysis.json
 2025-08-08 10:45:29 | INFO | main | Exploração da API Scryfall concluída
+2025-08-08 12:38:17 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 12:38:17 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 12:46:55 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 12:46:55 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 12:46:55 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 12:46:55 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 12:46:56 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 12:47:56 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 12:47:56 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 12:47:56 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 12:47:56 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 12:47:57 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 12:51:02 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 12:51:02 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 12:51:02 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 12:51:02 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets/inr
+2025-08-08 12:51:03 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 12:51:21 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 12:51:21 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 12:51:21 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 12:51:21 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets/inr
+2025-08-08 12:51:22 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 12:56:02 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 12:56:02 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 12:56:02 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 12:56:02 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 12:56:03 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:00:26 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:00:26 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:00:26 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:00:26 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:00:27 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:01:05 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:01:05 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:01:05 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:01:05 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:01:06 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:01:40 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:01:40 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:01:40 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:01:40 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:01:41 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:01:59 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:01:59 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:01:59 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:01:59 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:02:01 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:02:24 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:02:24 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:02:24 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:02:24 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:02:26 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:02:54 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:02:54 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:02:54 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:02:54 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:02:55 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:03:45 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:03:45 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:03:45 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:03:45 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:03:46 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:04:41 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:04:41 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:04:41 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:04:41 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:04:41 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:05:06 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:05:06 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:05:06 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:05:06 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:05:07 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:05:19 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:05:19 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:05:19 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:05:19 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:05:20 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:06:42 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:06:42 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:06:42 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:06:42 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:06:42 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:08:27 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:08:27 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:08:27 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:08:27 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:08:28 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:09:25 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:09:25 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:09:25 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:09:25 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:09:26 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:22:28 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:22:28 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:22:28 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:22:28 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:22:33 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:22:59 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:22:59 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:22:59 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:22:59 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:23:00 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:23:40 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:23:40 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:23:40 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:23:40 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:23:41 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:24:30 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:24:30 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:24:30 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:24:30 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:24:31 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:25:25 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:25:25 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:25:25 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:25:25 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:25:26 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:28:15 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:28:15 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:28:15 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:28:15 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:28:15 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:29:16 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:29:16 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:29:16 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:29:16 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:29:16 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:29:39 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:29:39 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:29:39 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:29:39 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:29:40 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-08 13:30:41 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-08 13:30:41 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-08 13:30:41 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-08 13:30:41 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-08 13:30:42 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-11 19:22:07 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-11 19:22:07 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-11 19:22:07 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-11 19:22:07 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-11 19:22:08 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-11 19:24:00 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-11 19:24:00 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-11 19:24:00 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-11 19:24:00 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-11 19:24:00 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-11 19:28:24 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-11 19:28:24 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-11 19:28:24 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-11 19:28:24 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-11 19:28:24 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-11 19:31:13 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-11 19:31:13 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-11 19:31:13 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-11 19:31:13 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-11 19:31:14 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-11 19:32:59 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-11 19:32:59 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-11 19:32:59 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-11 19:32:59 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-11 19:32:59 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-11 19:39:59 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-11 19:39:59 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-11 19:39:59 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-11 19:39:59 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-11 19:40:00 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-11 19:40:50 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-11 19:40:50 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-11 19:40:50 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-11 19:40:50 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-11 19:40:51 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-11 19:41:05 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-11 19:41:05 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-11 19:41:05 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-11 19:41:05 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-11 19:41:06 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-11 19:43:01 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-11 19:43:01 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-11 19:43:01 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-11 19:43:01 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-11 19:43:02 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-11 19:47:45 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-11 19:47:45 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-11 19:47:45 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-11 19:47:45 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-11 19:47:46 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-11 19:47:46 | INFO | explore_sets | Análise completa: 985 sets encontrados
+2025-08-11 19:53:12 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-11 19:53:12 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-11 19:53:12 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-11 19:53:12 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-11 19:53:13 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-11 19:53:13 | INFO | explore_sets | Análise completa: 985 sets encontrados
+2025-08-11 19:54:02 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-11 19:54:02 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-11 19:54:02 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-11 19:54:02 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-11 19:54:03 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-11 19:54:03 | INFO | explore_sets | Análise completa: 985 sets encontrados
+2025-08-11 19:58:28 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-11 19:58:28 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-11 19:58:28 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-11 19:58:28 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-11 19:58:29 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-11 19:58:29 | INFO | explore_sets | Análise completa: 985 sets encontrados
+2025-08-11 20:00:12 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-11 20:00:12 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-11 20:00:12 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-11 20:00:12 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-11 20:00:13 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-11 20:00:13 | INFO | explore_sets | Análise completa: 985 sets encontrados
+2025-08-11 20:00:13 | INFO | explore_sets | Análise completa: 20 sets encontrados
+2025-08-11 20:04:23 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-11 20:04:23 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-11 20:04:23 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-11 20:04:23 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-11 20:04:24 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-11 20:04:24 | INFO | explore_sets | Análise dos sets: 20 sets análisados
+2025-08-11 20:04:24 | INFO | explore_sets | Análise completa: 985 sets encontrados
+2025-08-11 20:09:45 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-11 20:09:45 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-11 20:09:45 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-11 20:09:45 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-11 20:09:46 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-11 20:09:46 | INFO | explore_sets | Análise dos sets: 20 sets análisados
+2025-08-11 20:09:46 | INFO | explore_sets | Análise completa: 985 sets encontrados
+2025-08-11 20:09:46 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/sets_analysis.json
+2025-08-19 13:09:53 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-19 13:09:53 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-19 13:09:53 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-19 13:09:53 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-19 13:09:54 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-19 13:09:54 | INFO | explore_sets | Análise dos sets: 20 sets análisados
+2025-08-19 13:09:54 | INFO | explore_sets | Análise completa: 991 sets encontrados
+2025-08-19 13:09:55 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/sets_analysis.json
+2025-08-19 13:11:14 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-19 13:11:14 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-19 13:11:14 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-19 13:11:14 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-19 13:11:15 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-19 13:11:15 | INFO | explore_sets | Análise dos sets: 20 sets análisados
+2025-08-19 13:11:15 | INFO | explore_sets | Análise completa: 991 sets encontrados
+2025-08-19 13:11:15 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/sets_analysis.json
+2025-08-19 13:15:20 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-19 13:15:20 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-19 13:15:20 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-19 13:15:20 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-19 13:15:20 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-19 13:15:21 | INFO | explore_sets | Análise dos sets: 20 sets análisados
+2025-08-19 13:15:21 | INFO | explore_sets | Análise completa: 991 sets encontrados
+2025-08-19 13:15:21 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/sets_analysis.json
+2025-08-19 13:15:21 | INFO | explore_cards | Explorando cartas do set: inr
+2025-08-19 13:16:43 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-19 13:16:43 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-19 13:16:43 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-19 13:16:43 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-19 13:16:45 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-19 13:16:45 | INFO | explore_sets | Análise dos sets: 20 sets análisados
+2025-08-19 13:16:45 | INFO | explore_sets | Análise completa: 991 sets encontrados
+2025-08-19 13:16:45 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/sets_analysis.json
+2025-08-19 13:16:45 | INFO | explore_cards | Explorando cartas do set: inr
+2025-08-19 13:16:45 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/cards/search
+2025-08-19 13:16:45 | INFO | _make_request | Parâmetros: {'q': 'set:inr', 'page': 1}
+2025-08-19 13:16:46 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-19 13:16:53 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-19 13:16:53 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-19 13:16:53 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-19 13:16:53 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-19 13:16:55 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-19 13:16:55 | INFO | explore_sets | Análise dos sets: 20 sets análisados
+2025-08-19 13:16:55 | INFO | explore_sets | Análise completa: 991 sets encontrados
+2025-08-19 13:16:55 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/sets_analysis.json
+2025-08-19 13:16:55 | INFO | explore_cards | Explorando cartas do set: inr
+2025-08-19 13:16:55 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/cards/search
+2025-08-19 13:16:55 | INFO | _make_request | Parâmetros: {'q': 'set:inr', 'page': 1}
+2025-08-19 13:16:55 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-19 13:24:40 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-19 13:24:40 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-19 13:24:40 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-19 13:24:40 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-19 13:24:41 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-19 13:24:41 | INFO | explore_sets | Análise dos sets: 20 sets análisados
+2025-08-19 13:24:41 | INFO | explore_sets | Análise completa: 991 sets encontrados
+2025-08-19 13:24:41 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/sets_analysis.json
+2025-08-19 13:24:41 | INFO | explore_cards | Explorando cartas do set: inr
+2025-08-19 13:24:41 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/cards/search
+2025-08-19 13:24:41 | INFO | _make_request | Parâmetros: {'q': 'set:inr', 'page': 1}
+2025-08-19 13:24:41 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-19 13:28:19 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-19 13:28:19 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-19 13:28:19 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-19 13:28:19 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-19 13:28:20 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-19 13:28:20 | INFO | explore_sets | Análise dos sets: 20 sets análisados
+2025-08-19 13:28:20 | INFO | explore_sets | Análise completa: 991 sets encontrados
+2025-08-19 13:28:20 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/sets_analysis.json
+2025-08-19 13:28:20 | INFO | explore_cards | Explorando cartas do set: inr
+2025-08-19 13:28:20 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/cards/search
+2025-08-19 13:28:20 | INFO | _make_request | Parâmetros: {'q': 'set:inr', 'page': 1}
+2025-08-19 13:28:20 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-19 13:33:55 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-19 13:33:55 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-19 13:33:55 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-19 13:33:55 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-19 13:33:56 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-19 13:33:56 | INFO | explore_sets | Análise dos sets: 20 sets análisados
+2025-08-19 13:33:56 | INFO | explore_sets | Análise completa: 991 sets encontrados
+2025-08-19 13:33:56 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/sets_analysis.json
+2025-08-19 13:33:56 | INFO | explore_cards | Explorando cartas do set: inr
+2025-08-19 13:33:56 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/cards/search
+2025-08-19 13:33:56 | INFO | _make_request | Parâmetros: {'q': 'set:inr', 'page': 1}
+2025-08-19 13:33:58 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-19 13:41:13 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-19 13:41:13 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-19 13:41:13 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-19 13:41:13 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-19 13:41:14 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-19 13:41:14 | INFO | explore_sets | Análise dos sets: 20 sets análisados
+2025-08-19 13:41:14 | INFO | explore_sets | Análise completa: 991 sets encontrados
+2025-08-19 13:41:14 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/sets_analysis.json
+2025-08-19 13:41:14 | INFO | explore_cards | Explorando cartas do set: inr
+2025-08-19 13:41:14 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/cards/search
+2025-08-19 13:41:14 | INFO | _make_request | Parâmetros: {'q': 'set:inr', 'page': 1}
+2025-08-19 13:41:15 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-19 13:47:42 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-19 13:47:42 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-19 13:47:42 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-19 13:47:42 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-19 13:47:43 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-19 13:47:43 | INFO | explore_sets | Análise dos sets: 20 sets análisados
+2025-08-19 13:47:43 | INFO | explore_sets | Análise completa: 991 sets encontrados
+2025-08-19 13:47:43 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/sets_analysis.json
+2025-08-19 13:47:43 | INFO | explore_cards | Explorando cartas do set: inr
+2025-08-19 13:47:43 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/cards/search
+2025-08-19 13:47:43 | INFO | _make_request | Parâmetros: {'q': 'set:inr', 'page': 1}
+2025-08-19 13:47:44 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-19 13:47:44 | INFO | explore_cards | Análise completa: 300 cartas no set inr
+2025-08-19 13:49:17 | INFO | main | Iniciando exploração da API Scryfall
+2025-08-19 13:49:17 | INFO | __init__ | ScryfallExplorer inicializado
+2025-08-19 13:49:17 | INFO | explore_sets | Explorando endpoint /sets
+2025-08-19 13:49:17 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/sets
+2025-08-19 13:49:18 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-19 13:49:18 | INFO | explore_sets | Análise dos sets: 20 sets análisados
+2025-08-19 13:49:18 | INFO | explore_sets | Análise completa: 991 sets encontrados
+2025-08-19 13:49:18 | SUCCESS | save_exploration_results | Resultados salvos em: data/exploration/sets_analysis.json
+2025-08-19 13:49:18 | INFO | explore_cards | Explorando cartas do set: inr
+2025-08-19 13:49:18 | INFO | _make_request | Fazendo requisição para: https://api.scryfall.com/cards/search
+2025-08-19 13:49:18 | INFO | _make_request | Parâmetros: {'q': 'set:inr', 'page': 1}
+2025-08-19 13:49:18 | SUCCESS | _make_request | Requisição bem-sucessida - Status: 200
+2025-08-19 13:49:18 | INFO | explore_cards | Análise completa: 300 cartas no set inr

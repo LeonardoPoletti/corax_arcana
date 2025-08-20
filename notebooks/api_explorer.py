@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 #/notebook/api_explorer.py
-
 """
 Explorador API Scryfall - KyberCorax
 Script para explorar e entender a estrutura da API Scryfall
@@ -99,6 +98,7 @@ class ScryfallExplorer:
         # Analisar primeiros sets em detalhes
         analysis = {
             "total_sets": len(sets_data.get('data', [])),
+            #"total_sets_analysed": len(set_data.get())
             "structure_keys": list(sets_data.keys()),
             "sample_sets": [],
             "set_types": set(),
@@ -108,6 +108,7 @@ class ScryfallExplorer:
         # Analisar primeiros sets em detalhes
         for i, set_data in enumerate(sets_data.get('data', [])[:limit]):
             set_info = {
+                "object": set_data.get('object'),
                 "code": set_data.get('code'),
                 "name": set_data.get('name'),
                 "set_type": set_data.get('set_type'),
@@ -126,13 +127,14 @@ class ScryfallExplorer:
                     analysis["date_range"]["oldest"] = release_date
                 if not analysis["date_range"]["newest"] or release_date > analysis["date_range"]["newest"]:
                     analysis["date_range"]["newest"] = release_date
-
         analysis["set_types"] = list(analysis["set_types"])
 
+        logger.info(f"Análise dos sets: {len(analysis["sample_sets"])} sets análisados")
         logger.info(f"Análise completa: {analysis['total_sets']} sets encontrados")
+        
         return analysis
     
-    def explore_cards(self, set_core: str = "dom", limit: int = 3) -> Dict[str, Any]:
+    def explore_cards(self, set_core: str = "inr", limit: int = 5) -> Dict[str, Any]:
         """
         Explora o endpoint /cards/search para entender estrutura das cartas
 
@@ -198,34 +200,34 @@ class ScryfallExplorer:
         logger.info(f"Análise completa: {analysis['total_cards']} cartas no set {set_core}")
         return analysis
     
-    def explore_catalog(self, catalog_type: str = "card-names") -> Dict[str, Any]:
-        """
-        Explora o endpoint /catalog para metados
-
-        Args:
-            catalog_type: Tipo de catálogo (card-names, creature-types, etc.)
-
-        Returns:
-            Dicionário com análise do catálogo
-        """
-        logger.info(f"Explorando catálogo: {catalog_type}")
-
-        catalog_data = self._make_request(f"/catalog/{catalog_type}")
-
-        if not catalog_data:
-            return {"error": f"Falha ao obter catálogo {catalog_type}"}
-        
-        analysis = {
-            "catalog_type": catalog_type,
-            "total_items": len(catalog_data.get('data', [])),
-            "structure_keys": list(catalog_data.keys()),
-            "sample_items": catalog_data.get('data', [])[:10],
-            "uri": catalog_data.get('uri')
-        }
-
-        logger.info(f"Catálogo {catalog_type}: {analysis['total_items']} itens")
-        return analysis
-    
+#    def explore_catalog(self, catalog_type: str = "card-names") -> Dict[str, Any]:
+#        """
+#        Explora o endpoint /catalog para metados
+#
+#        Args:
+#            catalog_type: Tipo de catálogo (card-names, creature-types, etc.)
+#
+#        Returns:
+#            Dicionário com análise do catálogo
+#        """
+#        logger.info(f"Explorando catálogo: {catalog_type}")
+#
+#        catalog_data = self._make_request(f"/catalog/{catalog_type}")
+#
+#        if not catalog_data:
+#            return {"error": f"Falha ao obter catálogo {catalog_type}"}
+#        
+#        analysis = {
+#            "catalog_type": catalog_type,
+#            "total_items": len(catalog_data.get('data', [])),
+#            "structure_keys": list(catalog_data.keys()),
+#            "sample_items": catalog_data.get('data', [])[:10],
+#            "uri": catalog_data.get('uri')
+#        }
+#
+#        logger.info(f"Catálogo {catalog_type}: {analysis['total_items']} itens")
+#        return analysis
+#    
     def save_exploration_results(self, results: Dict[str, Any], filename: str):
         """
         Salva resultados da exploração em arquivo JSON
@@ -258,36 +260,37 @@ def main():
 
     # Exploraçóo estruturada
     print("Explorando Sets...")
-    sets_analysis = explorer.explore_sets(limit=5)
+    sets_analysis = explorer.explore_sets(limit=20)
     explorer.save_exploration_results(sets_analysis, "sets_analysis.json")
 
     print("Explorando Cartas...")
-    cards_analysis = explorer.explore_cards(set_core="dom", limit=3)
-    explorer.save_exploration_results(cards_analysis, "cards_analysis.json")
-
-    print("Explorando Catálogos...")
-    catalog_types = ["creature-types", "card-names", "supertypes"]
-
-    for catalog in catalog_types:
-        catalog_analysis = explorer.explore_catalog(catalog)
-        explorer.save_exploration_results(
-            catalog_analysis,
-            f"catalog_{catalog.replace('-', '_')}_analysis.json"
-        )
-        time.sleep(0.2) # Rate limiting extra para múltiplas requisições
-
-    # Resumo final
-    print("\n" + "="*60)
-    print("RESUMO DA EXPLORAÇÃO")
-    print("="*60)
-    print(f"Total de Sets: {sets_analysis.get('total_sets', 'N/A')}")
-    print(f"Cartas analisadas: {cards_analysis.get('total_cards', 'N/A')}")
-    print(f"Catálogos explorados: {len(catalog_types)}")
-    print(f"Arquivos gerados: data/exploration/")
-    print(f"Logs: logs/api_exploration.log")
-    print("="*60)
-    
-    logger.info("Exploração da API Scryfall concluída")
-
+    cards_analysis = explorer.explore_cards(set_core="inr", limit=5)
+    print(cards_analysis)
+#    explorer.save_exploration_results(cards_analysis, "cards_analysis.json")
+#
+#    print("Explorando Catálogos...")
+#    catalog_types = ["creature-types", "card-names", "supertypes"]
+#
+#    for catalog in catalog_types:
+#        catalog_analysis = explorer.explore_catalog(catalog)
+#        explorer.save_exploration_results(
+#            catalog_analysis,
+#            f"catalog_{catalog.replace('-', '_')}_analysis.json"
+#        )
+#        time.sleep(0.2) # Rate limiting extra para múltiplas requisições
+#
+#    # Resumo final
+#    print("\n" + "="*60)
+#    print("RESUMO DA EXPLORAÇÃO")
+#    print("="*60)
+#    print(f"Total de Sets: {sets_analysis.get('total_sets', 'N/A')}")
+#    print(f"Cartas analisadas: {cards_analysis.get('total_cards', 'N/A')}")
+#    print(f"Catálogos explorados: {len(catalog_types)}")
+#    print(f"Arquivos gerados: data/exploration/")
+#    print(f"Logs: logs/api_exploration.log")
+#    print("="*60)
+#    
+#    logger.info("Exploração da API Scryfall concluída")
+#
 if __name__ == "__main__":
     main()

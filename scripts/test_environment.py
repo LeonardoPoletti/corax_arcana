@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 #/scripts/test_environment.py
-
 """
 Teste de Ambiente - KyberCorax
 Script para verificar se o ambiente está configurado corretamente
